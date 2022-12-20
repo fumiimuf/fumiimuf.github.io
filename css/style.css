@@ -31,7 +31,7 @@ h1.logo {
     float: left;
 }
 
-hi.logo a {
+h1.logo a {
     font-family: 'Oswald', sans-serif;
     color: #96746b;
     text-decoration: none;
