@@ -38,7 +38,7 @@ h1.logo a {
 }
 .header ul {
     width: 50%;
-    float: right;
+    float: left;
     text-align: right;
     padding-top: 1em;
 }
@@ -180,5 +180,5 @@ h1.logo a {
 }
 
 .merch-items:nth-child(4), .merch-items:nth-child(8) {
-    margin: auto;
+    margin-right: 0;
 }
