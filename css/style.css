@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1.logo {
     text-transform: uppercase;
-    width: 50vw;
+    width: 50%;
     float: left;
 }
 
@@ -38,7 +38,7 @@ h1.logo a {
 }
 .header ul {
     width: 50%;
-    float: left;
+    float: right;
     text-align: right;
     padding-top: 1em;
 }
@@ -74,7 +74,7 @@ h1.logo a {
 }
 
 .banner-text h2 {
-    color: #c7a17a;
+    color: #96746b;
     font-size: 4em;
     text-transform: uppercase;
 
