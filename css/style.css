@@ -308,3 +308,13 @@ form h3::after {
     height: 30px;
     margin: auto;
 }
+
+.res-agreement * {
+    width: auto;
+}
+
+form input[type="submit"] {
+    background-color: #c7a17a;
+    font-weight: 700;
+    text-transform: uppercase;
+}
