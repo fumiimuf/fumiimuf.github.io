@@ -204,7 +204,7 @@ h1.logo a {
     background-size: cover;
     background-position: center;
     height: 350px;
-    position: ;
+    position: relative;
 }
 
 .discount-text {

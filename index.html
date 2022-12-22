@@ -126,13 +126,44 @@
                 </div>
 
                 <form action="#" method="#">
+                    <!--start of left form-->
                     <div class="form-group">
                         <label for="full-name">Full Name</label>
                         <input type="text" id="full-name" name="full-name" placeholder="Lastname, Firstname" required>
                         <label for="email">Email Address</label>
-                        <input>
+                        <input type="email" id="email" neme="email" placeholder="mail@mail.com" required>
                         <label for="phone">Phone Number</label>
-                        <input type="tel">
+                        <input type="tel" id="phone" name="phone" placeholder="(+63) 912345678" required>
+                        <p>Reservation Details</p>
+                        <label for="guest-num" required>Number of Guests</label>
+                        <select name="guest-num" id="guest-num" required>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5+">more than 4</option>
+                        </select>
+                        <label for="res-date">Reservation Date</label>
+                        <input type="date" id="res-date" name="res-date" required>
+                        <label for="res-time">Reservation Time</label>
+                        <div class="res-time">
+                            <input type="radio" id="am" name="time" value="morning" required>
+                            <label for="am">Morning</label>
+                            <input type="radio" id="pm" name="time" value="afternoon" required>
+                            <label for="pm">Afternoon</label>
+                            <input type="radio" id="night" name="time" value="night" required>
+                            <label for="night">Night</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="request">Additional Request</label>
+                        <textarea name="request" id="request" cols="30" rows="10"></textarea>
+                        <h3>Payment</h3>
+                        <label for="name-card">Full Name</label>
+                        <input type="text" id="name-card" name="name-card" placeholder="Jhon Doe" required>
+                        <label for="cc-num">Credit Card Number</label>
+                        <input type="number" id="cc-num" name="cc-num" placeholder="1234567890" required>
+                        
                     </div>
                 </form>
             </div>
