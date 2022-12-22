@@ -223,3 +223,10 @@ h1.logo a {
     text-shadow: 3px 3px 6px #312a26;
 
 }
+
+.discount-text h2 {
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px #312a26;
+}
