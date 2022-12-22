@@ -179,7 +179,8 @@ h1.logo a {
     overflow: auto;
 }
 
-.merch-items:nth-child(4), .merch-items:nth-child(8) {
+.merch-items:nth-child(4), 
+.merch-items:nth-child(8) {
     margin-right: 0;
 }
 
