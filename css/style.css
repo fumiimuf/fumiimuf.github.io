@@ -127,6 +127,23 @@ h1.logo a {
     background-image: url(../img/ads-img2.jpg);
 }
 
+.ads3 {
+    margin-right: 3%;
+    background-image: url(../img/ads-img3.jpg);
+}
+
+.ads4 {
+    background-image: url(../img/ads-img4.jpg);
+}
+
+.ads5 {
+    margin-right: 3%;
+    background-image: url(../img/ads-img5.jpg);
+}
+
+.ads6 {
+    background-image: url(../img/ads-img6.jpg);
+}
 .ads-text {
     position: absolute;
     top: 30%;
@@ -273,6 +290,7 @@ h1.logo a {
 }
 
 form input, form label, form select, form textarea {
+
     display: inline-block;
     width: 100%;
     font-family: 'Raleway', sans-serif;
@@ -280,7 +298,7 @@ form input, form label, form select, form textarea {
     margin-bottom: 1em;
 }
 
-label {
+form label {
     font-weight: 700;
     padding: 0;
     margin-bottom: .5em;
