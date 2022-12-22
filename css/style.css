@@ -120,13 +120,20 @@ h1.logo a {
 
 .ads1 {
     margin-right: 3%;
-    background-image: url(../img/images/ads-img1.jpg);
+    background-image: url(../img/ads-img1.jpg);
 }
 
 .ads2 {
-    background-image: url(../img/images/ads-img2.jpg);
+    background-image: url(../img/ads-img2.jpg);
 }
 
+.ads-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translateY(-50%);
+    width: 40%;
+}
 .ads-items h3 {
     text-transform: uppercase;
     font-size: 2em;
@@ -200,7 +207,7 @@ h1.logo a {
 .discount {
     width: 85%;
     margin: 4em, auto;
-    background-image: url(../img/images/discount-img.jpg);
+    background-image: url(../img/discount-img.jpg);
     background-size: cover;
     background-position: center;
     height: 350px;
