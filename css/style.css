@@ -276,6 +276,22 @@ h1.logo a {
     margin: 4em auto;
 }
 
+.reservation .header {
+    text-align: center;
+}
+
+.reservation .header h2 {
+    text-transform: uppercase;
+    color: #312a26;
+}
+
+.reservation .header hr {
+    background-color: #c7a17a;
+    height: 2px;
+    width: 25%;
+    margin: auto;
+}
+
 .form {
     overflow: auto;
 }
