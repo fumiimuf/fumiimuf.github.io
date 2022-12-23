@@ -60,7 +60,7 @@ h1.logo a {
 }
 
 .banner {
-    background-image: url(../img/banner-bg.jpg);
+    background-image: url('../img/banner-bg.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -355,6 +355,9 @@ form h3::after {
     margin: auto;
 }
 
+.terms * {
+    width: auto;
+}
 .res-agreement * {
     width: auto;
 }
@@ -380,14 +383,14 @@ form input[type="submit"] {
     overflow: auto;
 }
 
-.footer-contents:nth-child(4) {
-    margin-right: 0;
-}
-
 .footer-widgets {
-    width: 24.5;
+    width: 24.25%;
     float: left;
     margin-right: 1%;
+}
+
+.footer-widgets:nth-child(4) {
+    margin-right: 0;
 }
 
 .footer-widgets h3 {
