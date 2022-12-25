@@ -124,29 +124,29 @@ h1.logo a {
 
 .ads1 {
     margin-right: 3%;
-    background-image: url(../img/ads-img1.jpg);
+    background-image: url('../img/ads-img1.jpg');
 }
 
 .ads2 {
-    background-image: url(../img/ads-img2.jpg);
+    background-image: url('../img/ads-img2.jpg');
 }
 
 .ads3 {
     margin-right: 3%;
-    background-image: url(../img/ads-img3.jpg);
+    background-image: url('../img/ads-img3.jpg');
 }
 
 .ads4 {
-    background-image: url(../img/ads-img4.jpg);
+    background-image: url('../img/ads-img4.jpg');
 }
 
 .ads5 {
     margin-right: 3%;
-    background-image: url(../img/ads-img5.jpg);
+    background-image: url('../img/ads-img5.jpg');
 }
 
 .ads6 {
-    background-image: url(../img/ads-img6.jpg);
+    background-image: url('../img/ads-img6.jpg');
 }
 .ads-text {
     position: absolute;
@@ -229,7 +229,7 @@ h1.logo a {
 .discount {
     width: 85%;
     margin: 4em, auto;
-    background-image: url(../img/discount-img.jpg);
+    background-image: url('../img/discount-img.jpg');
     background-size: cover;
     background-position: center;
     height: 350px;
